@@ -1,0 +1,22 @@
+# Compiled source #
+###################
+*.com
+*.o
+*.so
+*.pyc
+
+# Editing tools and IDEs #
+##########################
+*.swp
+*~
+\#*\#
+\.#*
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+._*
+Thumbs.db

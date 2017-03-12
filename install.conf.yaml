@@ -1,3 +1,15 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
 - clean: []
-- link: {}
+- link:
+    ~/.dotfiles: ''
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.tmux.conf:
+    ~/.vimrc:
+    ~/.bashrc:
+
 - shell: []
