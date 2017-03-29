@@ -85,3 +85,7 @@ function tsgrep ()
 alias ..='cd ..'
 alias cd..='cd ..'
 alias sqlplus='rlwrap sqlplus'
+
+if [ -f ~/.bashrc_local ]; then
+    source ~/.bashrc_local
+fi

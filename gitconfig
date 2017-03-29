@@ -30,4 +30,5 @@
     df = diff
     lg = log -p
     ll = log --oneline
-
+[include]
+    path = ~/.gitconfig_local

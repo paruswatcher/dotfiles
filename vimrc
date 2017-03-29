@@ -76,3 +76,8 @@ try
      source ~/dotfiles/vim/functions.vim
 catch
 endtry
+
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
