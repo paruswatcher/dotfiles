@@ -11,5 +11,8 @@
     ~/.tmux.conf:
     ~/.vimrc:
     ~/.bashrc:
+    ~/.ackrc:
+    ~/.thymerc:
 
-- shell: []
+- shell:
+    - git submodule update --init --recursive

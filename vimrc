@@ -30,15 +30,14 @@ set nostartofline   " don't jump to first character when paging
 set colorcolumn=110
 set nofoldenable
 
-filetype on         " filetype detection
-filetype plugin on
-filetype indent on
 
 set showmatch       " show matching brackets
 set hidden          " enable switching between buffers without saving them
 if has('syntax') && (&t_Co > 2)
   syntax on
 endif
+
+filetype plugin indent on
 
 set fileencodings=utf8,cp866
 
@@ -70,6 +69,11 @@ autocmd FocusGained,BufEnter *.log :silent! !
 " do not show preview window for tag
 "set completeopt-=menu
 set completeopt-=preview
+
+set rtp+=~/dotfiles/vim/bundle/ctrlp.vim
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrp_cmd = 'CtrlP'
 
 try
      source ~/dotfiles/vim/appearance.vim

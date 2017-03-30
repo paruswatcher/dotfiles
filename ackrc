@@ -1,0 +1,6 @@
+# support tscript
+--type-set
+ts:ext:ts
+
+# search in cpp files by default
+--cpp
