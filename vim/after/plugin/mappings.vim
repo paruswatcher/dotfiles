@@ -38,8 +38,8 @@ nmap <S-Esc> :bd<CR>
 imap <S-Esc> <Esc> :bd<CR>i
 
 " switch buffers
-nmap <C-p> :bp<CR>
-nmap <C-n> :bn<CR>
+" nmap <C-p> :bp<CR>
+" nmap <C-n> :bn<CR>
 " save changed buffer
 noremap <F2> :up<CR>
 inoremap <F2> <C-o>:up<CR>
