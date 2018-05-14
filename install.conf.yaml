@@ -12,7 +12,6 @@
     ~/.vimrc:
     ~/.bashrc:
     ~/.ackrc:
-    ~/.thymerc:
 
 - shell:
     - git submodule update --init --recursive
