@@ -10,7 +10,6 @@
     ~/.gitignore_global:
     ~/.tmux.conf:
     ~/.vimrc:
-    ~/.bashrc:
     ~/.ackrc:
 
 - shell:
