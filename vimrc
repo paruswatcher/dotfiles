@@ -29,6 +29,7 @@ set title           " show title in console title bar
 set nostartofline   " don't jump to first character when paging
 set colorcolumn=110
 set nofoldenable
+set noswapfile
 
 
 set showmatch       " show matching brackets
