@@ -38,7 +38,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ls='ls --color=auto'
-alias cdsand='cd /home/ivanpopov/sandbox'
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
